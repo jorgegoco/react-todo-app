@@ -1,7 +1,10 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
-
-const element = <h1>Hello from Create React App</h1>
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import TodoContainer from './components/TodoContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(element)
+root.render(
+  <React.StrictMode>
+    <TodoContainer />
+  </React.StrictMode>,
+);
