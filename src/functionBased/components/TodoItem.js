@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { FaTrash } from 'react-icons/fa';
 import React, { useState } from 'react';
 import styles from './TodoItem.module.css';
 
@@ -44,7 +45,9 @@ const TodoItem = ({
           checked={completed}
           onChange={() => handleChangeProps(id)}
         />
-        <button type="submit" onClick={() => deleteTodoProps(id)}>Delete</button>
+        <button type="submit" onClick={() => deleteTodoProps(id)}>
+          <FaTrash style={{ color: 'orangered', fontSize: '16px' }} />
+        </button>
         <span style={completed ? completedStyle : null}>{title}</span>
       </div>
       <input

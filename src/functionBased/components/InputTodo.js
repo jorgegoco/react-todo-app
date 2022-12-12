@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
+import { FaPlusCircle } from 'react-icons/fa';
 
 const InputTodo = ({ addTodoProps }) => {
   const [inputText, setInputText] = useState({
@@ -33,7 +34,9 @@ const InputTodo = ({ addTodoProps }) => {
         name="title"
         onChange={onChange}
       />
-      <button type="submit" className="input-submit">Submit</button>
+      <button type="submit" className="input-submit">
+        <FaPlusCircle />
+      </button>
     </form>
   );
 };
