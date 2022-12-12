@@ -1,6 +1,8 @@
 <a name="readme-top"></a>
 <div align="center">
-# React To-do List App
+
+# React To-do App
+
 </div>
 
 # 📗 Table of Contents
@@ -24,9 +26,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 React To-do List App <a name="about-project"></a>
+# 📖 React To-do App <a name="about-project"></a>
 
-**React To-do List App** is an app that let us manage a list of tasks. We can edit, delete, and add tasks. Tasks are managed in our browser storage API, LocalStorage.
+**React To-do App** is an app that let us manage a list of tasks. We can edit, delete, and add tasks. Tasks are managed in our browser storage API, LocalStorage.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,8 +54,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://jorgegoco.github.io/react-todo-app)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -107,14 +107,12 @@ npm start
 - Twitter: [@twitterhandle](https://twitter.com/JorgeGo78017548)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorge-gonz%C3%A1lez-b1a50714b/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Drag and drop tasks functionality**
 - [ ] **Add timers for tasks.**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -122,13 +120,11 @@ Contributions, issues, and feature requests are welcome!
 
 - Feel free to check the [issues page](https://github.com/jorgegoco/react-todo-app/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project...give me a ⭐️!!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -146,4 +142,3 @@ This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
